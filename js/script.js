@@ -1,7 +1,7 @@
 // declarations
 let openWeatherApiKey = "d860f678028955a533e55c6ec838d3b3";
 let searchByCityList = [];
-let city = "";
+let city = "Minneapolis";
 let currentDay = moment().format(" MM/DD/YYYY");
 
 let savedCities = JSON.parse(localStorage.getItem("searchByCityList"));
