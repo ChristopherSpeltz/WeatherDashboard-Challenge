@@ -1,0 +1,80 @@
+#search-section {
+    background-color: skyblue;
+    height: 100%;
+    padding: 20px;
+}
+
+#search-city {
+    background:darkblue;
+    color:white;
+    border-color: gray;
+}
+
+.svd-city-btn {
+    width: 100%;
+    text-align: left;
+    padding:5px;
+    background-color: darkblue;
+    border: 1px solid rgb(224, 223, 223);
+    color: white;
+    border-radius: 5px;
+    height: 42px;
+
+}
+
+#present {
+    
+    padding: 20px;
+    margin:auto;
+
+}
+
+#future {
+    margin:auto;
+}
+
+.col{
+    width: 20%;
+    background-color: darkblue;
+    color: white;
+    padding:20px;
+    margin: 10px;
+}
+
+
+iframe {
+    height: 50 !important;
+    width: 50 !important;
+
+    border: none;
+    display: inline;
+}
+
+@media (max-width: 900px){
+
+    #search-section {
+        width: 100% !important;
+        margin: 5px;
+    }
+
+    .col {
+
+        width: 50% ;
+    }
+
+    #forecast-view { 
+        width: 100% !important;
+    }
+
+    #find-city {
+        width: 70% !important;
+        margin:2px;
+        padding:2px;
+    }
+
+    #current {
+        border: none;
+    }
+    
+
+}
